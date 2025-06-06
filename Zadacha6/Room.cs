@@ -31,10 +31,10 @@ namespace Zadacha6
         }
         public Room(int number, int type, bool occupied, double price)
         {
-            this._number = Number;
-            this._type = Type;
-            this._occupied = Occupied;            
-            this._price = Price;
+            this.Number = number;
+            this.Type = type;
+            this.Occupied = occupied;
+            this.Price = price;
         }
         public int Number
         {

@@ -42,9 +42,9 @@ namespace Zadacha3
         public Apartment(int place, int size, double price)
             : this()
         {
-            this._place = Place;
-            this._size = Size;
-            this._price = Price;
+            this.Place = place;
+            this.Size = size;
+            this.Price = price;
         }
         public int Place
         {

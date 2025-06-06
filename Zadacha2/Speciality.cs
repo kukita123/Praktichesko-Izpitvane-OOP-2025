@@ -38,10 +38,10 @@ namespace Zadacha2
         }
         public Speciality(string specialityName, int countWomen, int countMen, double specialityMarks)
         {
-            this._specialityName = SpecialityName;
-            this._countWomen = CountWomen;
-            this._countMen = CountMen;
-            this._specialityMarks = SpecialityMarks;
+            this.SpecialityName = specialityName;
+            this.CountWomen = countWomen;
+            this.CountMen = countMen;
+            this.SpecialityMarks = specialityMarks;
         }
         public string SpecialityName
         {

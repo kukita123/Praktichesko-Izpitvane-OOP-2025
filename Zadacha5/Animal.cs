@@ -28,12 +28,9 @@ namespace Zadacha5
         }
         public Animal(int number, string name, int weigth)
         {
-            this._number = Number;
+            this.Number = number;
             this._name = name;
-            if (weigth > 0)
-                this._weight = weigth;
-            else
-                this._weight = 0;
+            this.Weight = weigth;
         }
         public int Number
         {

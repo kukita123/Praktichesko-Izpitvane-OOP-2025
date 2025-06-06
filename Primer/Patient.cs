@@ -37,10 +37,10 @@ namespace Primer
 
         public Patient(int number, string name, int weight, int height)
         {
-            this._number = Number;
-            this._name = Name;          
-            this._weight = Weight;          
-            this._height = Height;            
+            this.Number = number;
+            this.Name = name;          
+            this.Weight = weight;          
+            this.Height = height;            
         }
 
         public int Number

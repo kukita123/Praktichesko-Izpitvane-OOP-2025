@@ -33,10 +33,10 @@ namespace Zadacha7
 
         public Company(int number, int type, string nationality, double salary)
         {
-            this._number = Number;
-            this._type = Type;
-            this._nationality = Nationality;            
-            this._salary = Salary;
+            this.Number = number;
+            this.Type = type;
+            this.Nationality = nationality;
+            this.Salary = salary;
         }
 
         public int Number

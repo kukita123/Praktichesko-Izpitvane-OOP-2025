@@ -37,8 +37,8 @@ namespace Zadacha4
         {
             this._name = Name;
             this._autor = Autor;
-            this._price = Price;
-            this._count = Count;
+            this.Price = price;
+            this.Count = count;
         }
         public string Name
         {

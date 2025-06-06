@@ -42,9 +42,9 @@ namespace Zadacha1
         public Employee(string name, int hours, double salary, int year)
         {
             this._name = name;
-            Hours = hours;
-            Salary = salary;
-            Year = year;
+            this.Hours = hours;
+            this.Salary = salary;
+            this.Year = year;
         }
         public string Name
         {
